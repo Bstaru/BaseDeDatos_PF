@@ -1,0 +1,646 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BD_PF2
+</name>
+</assembly>
+<members>
+<member name="T:BD_PF2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.empleado">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.factura">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.file_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.gg2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.lupa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.proveedor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.subdireccion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.tlkwxd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.uno">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.yo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.yo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_MainMenu_Back">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Map_Close">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Map_Open">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_PressStart">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Prompt_Appear">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Prompt_Cancel">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Prompt_Cursor">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Prompt_Select">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:BD_PF2.My.Resources.Resources.ZSS_Text_Next">
+<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmpDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneralDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProvDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmp2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneral2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProv2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubD2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmpRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneralRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProvRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmp2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneral2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProv2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubD2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmpRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneralRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProvRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteEmp2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteGeneral2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteProv2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Views.vwReporteSubD2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteEmpTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteGeneralTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteProvTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteSubDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteEmp2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteGeneral2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteProv2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.vwReporteSubD2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.UpdateUpdatedRows(BD_PF2.DataSet_Views,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.UpdateInsertedRows(BD_PF2.DataSet_Views,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.UpdateDeletedRows(BD_PF2.DataSet_Views,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.UpdateAll(BD_PF2.DataSet_Views)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwEmpleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwSubdireccionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwEmpleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwSubdireccionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwEmpleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListas.vwSubdireccionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.vwEmpleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.vwProveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.vwSubdireccionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.UpdateUpdatedRows(BD_PF2.DataSet_ViewsListas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.UpdateInsertedRows(BD_PF2.DataSet_ViewsListas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.UpdateDeletedRows(BD_PF2.DataSet_ViewsListas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.UpdateAll(BD_PF2.DataSet_ViewsListas)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_ViewsListasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblEmpleadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblFacturaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblImpuestoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblProveedorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblPuesto2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblRolDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas._tblSubD_EmpDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblSubdireccionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblEmpleadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblFacturaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblImpuestoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblProveedorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblPuesto2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblRolRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas._tblSubD_EmpRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblSubdireccionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblEmpleadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblFacturaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblImpuestoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblProveedorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblPuesto2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblRolRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas._tblSubD_EmpRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_Tablas.tblSubdireccionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblEmpleadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblFacturaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblImpuestoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblProveedorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblPuesto2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblRolTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblSubD_EmpTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.tblSubdireccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.UpdateUpdatedRows(BD_PF2.DataSet_Tablas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.UpdateInsertedRows(BD_PF2.DataSet_Tablas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.UpdateDeletedRows(BD_PF2.DataSet_Tablas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.UpdateAll(BD_PF2.DataSet_Tablas)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BD_PF2.DataSet_TablasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DACA65E7-5638-40F0-BED4-86E8A12F8A54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BD_PF2.My.MyApplication</StartupObject>
+    <RootNamespace>BD_PF2</RootNamespace>
+    <AssemblyName>BD_PF2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BD_PF2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BD_PF2.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>yo2.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataSet_Views.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Views.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_ViewsListas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ViewsListas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarEmp.Designer.vb">
+      <DependentUpon>frmAgregarEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet_Tablas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_Tablas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarProv.Designer.vb">
+      <DependentUpon>frmAgregarProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarSubD.Designer.vb">
+      <DependentUpon>frmAgregarSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarEmp.Designer.vb">
+      <DependentUpon>frmBuscarEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarProv.Designer.vb">
+      <DependentUpon>frmBuscarProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarSubD.Designer.vb">
+      <DependentUpon>frmBuscarSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarEmp.Designer.vb">
+      <DependentUpon>frmEditarEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarProv.Designer.vb">
+      <DependentUpon>frmEditarProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarSubD.Designer.vb">
+      <DependentUpon>frmEditarSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditarSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarEmp.Designer.vb">
+      <DependentUpon>frmEliminarEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarProv.Designer.vb">
+      <DependentUpon>frmEliminarProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarSubD.Designer.vb">
+      <DependentUpon>frmEliminarSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactura.Designer.vb">
+      <DependentUpon>frmFactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInfo2.Designer.vb">
+      <DependentUpon>frmInfo2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInfo2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaEmp.Designer.vb">
+      <DependentUpon>frmListaEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaProv.Designer.vb">
+      <DependentUpon>frmListaProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogIn.Designer.vb">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepFacEmp.Designer.vb">
+      <DependentUpon>frmRepFacEmp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepFacEmp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepFacGral.Designer.vb">
+      <DependentUpon>frmRepFacGral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepFacGral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepFacProv.Designer.vb">
+      <DependentUpon>frmRepFacProv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepFacProv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRepFacSubD.Designer.vb">
+      <DependentUpon>frmRepFacSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRepFacSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListaSubD.Designer.vb">
+      <DependentUpon>frmListaSubD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListaSubD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloBaseDeDatos.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarEmp.resx">
+      <DependentUpon>frmAgregarEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarProv.resx">
+      <DependentUpon>frmAgregarProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarSubD.resx">
+      <DependentUpon>frmAgregarSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarEmp.resx">
+      <DependentUpon>frmBuscarEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarProv.resx">
+      <DependentUpon>frmBuscarProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarSubD.resx">
+      <DependentUpon>frmBuscarSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarEmp.resx">
+      <DependentUpon>frmEditarEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarProv.resx">
+      <DependentUpon>frmEditarProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarSubD.resx">
+      <DependentUpon>frmEditarSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarEmp.resx">
+      <DependentUpon>frmEliminarEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarProv.resx">
+      <DependentUpon>frmEliminarProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarSubD.resx">
+      <DependentUpon>frmEliminarSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactura.resx">
+      <DependentUpon>frmFactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInfo2.resx">
+      <DependentUpon>frmInfo2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaEmp.resx">
+      <DependentUpon>frmListaEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaProv.resx">
+      <DependentUpon>frmListaProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogIn.resx">
+      <DependentUpon>frmLogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepFacEmp.resx">
+      <DependentUpon>frmRepFacEmp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepFacGral.resx">
+      <DependentUpon>frmRepFacGral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepFacProv.resx">
+      <DependentUpon>frmRepFacProv.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRepFacSubD.resx">
+      <DependentUpon>frmRepFacSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListaSubD.resx">
+      <DependentUpon>frmListaSubD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataSet_Tablas.xsc">
+      <DependentUpon>DataSet_Tablas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_Tablas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Tablas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_Tablas.xss">
+      <DependentUpon>DataSet_Tablas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_Views.xsc">
+      <DependentUpon>DataSet_Views.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_Views.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_Views.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_Views.xss">
+      <DependentUpon>DataSet_Views.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ViewsListas.xsc">
+      <DependentUpon>DataSet_ViewsListas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ViewsListas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ViewsListas.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet_ViewsListas.xss">
+      <DependentUpon>DataSet_ViewsListas.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\sfvdsfvdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\PP_hue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\yo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\gg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\gg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proveedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subdireccion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZSS_Map_Close.wav" />
+    <None Include="Resources\ZSS_MainMenu_Back.wav" />
+    <None Include="Resources\ZSS_Text_Next.wav" />
+    <None Include="Resources\ZSS_Prompt_Select.wav" />
+    <None Include="Resources\ZSS_Prompt_Cursor.wav" />
+    <None Include="Resources\ZSS_Prompt_Cancel.wav" />
+    <None Include="Resources\ZSS_Prompt_Appear.wav" />
+    <None Include="Resources\ZSS_PressStart.wav" />
+    <None Include="Resources\ZSS_Map_Open.wav" />
+    <None Include="Resources\yo.ico" />
+    <None Include="Resources\tlkwxd.png" />
+    <Content Include="yo2.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

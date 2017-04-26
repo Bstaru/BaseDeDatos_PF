@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet_Views" targetNamespace="http://tempuri.org/DataSet_Views.xsd" xmlns:mstns="http://tempuri.org/DataSet_Views.xsd" xmlns="http://tempuri.org/DataSet_Views.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ProyectoFinal_BDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ProyectoFinal_BDConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BD_PF2.My.MySettings.GlobalReference.Default.ProyectoFinal_BDConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteEmpTableAdapter" GeneratorDataComponentClassName="vwReporteEmpTableAdapter" Name="vwReporteEmp" UserDataComponentName="vwReporteEmpTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteEmp" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Empleado que realizó], Folio, Impuesto, Monto FROM dbo.vwReporteEmp</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Empleado que realizó" DataSetColumn="Empleado que realizó" />
+              <Mapping SourceColumn="Folio" DataSetColumn="Folio" />
+              <Mapping SourceColumn="Impuesto" DataSetColumn="Impuesto" />
+              <Mapping SourceColumn="Monto" DataSetColumn="Monto" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteGeneralTableAdapter" GeneratorDataComponentClassName="vwReporteGeneralTableAdapter" Name="vwReporteGeneral" UserDataComponentName="vwReporteGeneralTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteGeneral" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Empleado, Subdirección, Proveedor, Impuesto, Total FROM dbo.vwReporteGeneral</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Empleado" DataSetColumn="Empleado" />
+              <Mapping SourceColumn="Subdirección" DataSetColumn="Subdirección" />
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="Impuesto" DataSetColumn="Impuesto" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteProvTableAdapter" GeneratorDataComponentClassName="vwReporteProvTableAdapter" Name="vwReporteProv" UserDataComponentName="vwReporteProvTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteProv" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Proveedor, Impuesto, Total FROM dbo.vwReporteProv</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="Impuesto" DataSetColumn="Impuesto" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteSubDTableAdapter" GeneratorDataComponentClassName="vwReporteSubDTableAdapter" Name="vwReporteSubD" UserDataComponentName="vwReporteSubDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteSubD" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Subdirección que realizó], Folio, Impuesto, Total FROM dbo.vwReporteSubD</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Subdirección que realizó" DataSetColumn="Subdirección que realizó" />
+              <Mapping SourceColumn="Folio" DataSetColumn="Folio" />
+              <Mapping SourceColumn="Impuesto" DataSetColumn="Impuesto" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteEmp2TableAdapter" GeneratorDataComponentClassName="vwReporteEmp2TableAdapter" Name="vwReporteEmp2" UserDataComponentName="vwReporteEmp2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteEmp2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Empleado, Total FROM dbo.vwReporteEmp2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Empleado" DataSetColumn="Empleado" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteGeneral2TableAdapter" GeneratorDataComponentClassName="vwReporteGeneral2TableAdapter" Name="vwReporteGeneral2" UserDataComponentName="vwReporteGeneral2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteGeneral2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Empleado, Subdirección, Proveedor, Total FROM dbo.vwReporteGeneral2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Empleado" DataSetColumn="Empleado" />
+              <Mapping SourceColumn="Subdirección" DataSetColumn="Subdirección" />
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteProv2TableAdapter" GeneratorDataComponentClassName="vwReporteProv2TableAdapter" Name="vwReporteProv2" UserDataComponentName="vwReporteProv2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteProv2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Proveedor, Total FROM dbo.vwReporteProv2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Proveedor" DataSetColumn="Proveedor" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteSubD2TableAdapter" GeneratorDataComponentClassName="vwReporteSubD2TableAdapter" Name="vwReporteSubD2" UserDataComponentName="vwReporteSubD2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ProyectoFinal_BDConnectionString (MySettings)" DbObjectName="ProyectoFinal_BD.dbo.vwReporteSubD2" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Subdirección, Total FROM dbo.vwReporteSubD2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Subdirección" DataSetColumn="Subdirección" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet_Views" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DataSet_Views" msprop:Generator_UserDSName="DataSet_Views">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwReporteEmp" msprop:Generator_TableClassName="vwReporteEmpDataTable" msprop:Generator_TableVarName="tablevwReporteEmp" msprop:Generator_TablePropName="vwReporteEmp" msprop:Generator_RowDeletingName="vwReporteEmpRowDeleting" msprop:Generator_RowChangingName="vwReporteEmpRowChanging" msprop:Generator_RowEvHandlerName="vwReporteEmpRowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteEmpRowDeleted" msprop:Generator_UserTableName="vwReporteEmp" msprop:Generator_RowChangedName="vwReporteEmpRowChanged" msprop:Generator_RowEvArgName="vwReporteEmpRowChangeEvent" msprop:Generator_RowClassName="vwReporteEmpRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Empleado_x0020_que_x0020_realizó" msprop:Generator_ColumnVarNameInTable="columnEmpleado_que_realizó" msprop:Generator_ColumnPropNameInRow="Empleado_que_realizó" msprop:Generator_ColumnPropNameInTable="Empleado_que_realizóColumn" msprop:Generator_UserColumnName="Empleado que realizó" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio" type="xs:int" />
+              <xs:element name="Impuesto" msprop:Generator_ColumnVarNameInTable="columnImpuesto" msprop:Generator_ColumnPropNameInRow="Impuesto" msprop:Generator_ColumnPropNameInTable="ImpuestoColumn" msprop:Generator_UserColumnName="Impuesto" type="xs:double" minOccurs="0" />
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteGeneral" msprop:Generator_TableClassName="vwReporteGeneralDataTable" msprop:Generator_TableVarName="tablevwReporteGeneral" msprop:Generator_TablePropName="vwReporteGeneral" msprop:Generator_RowDeletingName="vwReporteGeneralRowDeleting" msprop:Generator_RowChangingName="vwReporteGeneralRowChanging" msprop:Generator_RowEvHandlerName="vwReporteGeneralRowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteGeneralRowDeleted" msprop:Generator_UserTableName="vwReporteGeneral" msprop:Generator_RowChangedName="vwReporteGeneralRowChanged" msprop:Generator_RowEvArgName="vwReporteGeneralRowChangeEvent" msprop:Generator_RowClassName="vwReporteGeneralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Empleado" msprop:Generator_ColumnVarNameInTable="columnEmpleado" msprop:Generator_ColumnPropNameInRow="Empleado" msprop:Generator_ColumnPropNameInTable="EmpleadoColumn" msprop:Generator_UserColumnName="Empleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Subdirección" msprop:Generator_ColumnVarNameInTable="columnSubdirección" msprop:Generator_ColumnPropNameInRow="Subdirección" msprop:Generator_ColumnPropNameInTable="SubdirecciónColumn" msprop:Generator_UserColumnName="Subdirección" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Impuesto" msprop:Generator_ColumnVarNameInTable="columnImpuesto" msprop:Generator_ColumnPropNameInRow="Impuesto" msprop:Generator_ColumnPropNameInTable="ImpuestoColumn" msprop:Generator_UserColumnName="Impuesto" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteProv" msprop:Generator_TableClassName="vwReporteProvDataTable" msprop:Generator_TableVarName="tablevwReporteProv" msprop:Generator_TablePropName="vwReporteProv" msprop:Generator_RowDeletingName="vwReporteProvRowDeleting" msprop:Generator_RowChangingName="vwReporteProvRowChanging" msprop:Generator_RowEvHandlerName="vwReporteProvRowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteProvRowDeleted" msprop:Generator_UserTableName="vwReporteProv" msprop:Generator_RowChangedName="vwReporteProvRowChanged" msprop:Generator_RowEvArgName="vwReporteProvRowChangeEvent" msprop:Generator_RowClassName="vwReporteProvRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Impuesto" msprop:Generator_ColumnVarNameInTable="columnImpuesto" msprop:Generator_ColumnPropNameInRow="Impuesto" msprop:Generator_ColumnPropNameInTable="ImpuestoColumn" msprop:Generator_UserColumnName="Impuesto" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteSubD" msprop:Generator_TableClassName="vwReporteSubDDataTable" msprop:Generator_TableVarName="tablevwReporteSubD" msprop:Generator_TablePropName="vwReporteSubD" msprop:Generator_RowDeletingName="vwReporteSubDRowDeleting" msprop:Generator_RowChangingName="vwReporteSubDRowChanging" msprop:Generator_RowEvHandlerName="vwReporteSubDRowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteSubDRowDeleted" msprop:Generator_UserTableName="vwReporteSubD" msprop:Generator_RowChangedName="vwReporteSubDRowChanged" msprop:Generator_RowEvArgName="vwReporteSubDRowChangeEvent" msprop:Generator_RowClassName="vwReporteSubDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subdirección_x0020_que_x0020_realizó" msprop:Generator_ColumnVarNameInTable="columnSubdirección_que_realizó" msprop:Generator_ColumnPropNameInRow="Subdirección_que_realizó" msprop:Generator_ColumnPropNameInTable="Subdirección_que_realizóColumn" msprop:Generator_UserColumnName="Subdirección que realizó" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Folio" msprop:Generator_ColumnVarNameInTable="columnFolio" msprop:Generator_ColumnPropNameInRow="Folio" msprop:Generator_ColumnPropNameInTable="FolioColumn" msprop:Generator_UserColumnName="Folio" type="xs:int" />
+              <xs:element name="Impuesto" msprop:Generator_ColumnVarNameInTable="columnImpuesto" msprop:Generator_ColumnPropNameInRow="Impuesto" msprop:Generator_ColumnPropNameInTable="ImpuestoColumn" msprop:Generator_UserColumnName="Impuesto" type="xs:double" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteEmp2" msprop:Generator_TableClassName="vwReporteEmp2DataTable" msprop:Generator_TableVarName="tablevwReporteEmp2" msprop:Generator_RowChangedName="vwReporteEmp2RowChanged" msprop:Generator_TablePropName="vwReporteEmp2" msprop:Generator_RowDeletingName="vwReporteEmp2RowDeleting" msprop:Generator_RowChangingName="vwReporteEmp2RowChanging" msprop:Generator_RowEvHandlerName="vwReporteEmp2RowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteEmp2RowDeleted" msprop:Generator_RowClassName="vwReporteEmp2Row" msprop:Generator_UserTableName="vwReporteEmp2" msprop:Generator_RowEvArgName="vwReporteEmp2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Empleado" msprop:Generator_ColumnVarNameInTable="columnEmpleado" msprop:Generator_ColumnPropNameInRow="Empleado" msprop:Generator_ColumnPropNameInTable="EmpleadoColumn" msprop:Generator_UserColumnName="Empleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteGeneral2" msprop:Generator_TableClassName="vwReporteGeneral2DataTable" msprop:Generator_TableVarName="tablevwReporteGeneral2" msprop:Generator_RowChangedName="vwReporteGeneral2RowChanged" msprop:Generator_TablePropName="vwReporteGeneral2" msprop:Generator_RowDeletingName="vwReporteGeneral2RowDeleting" msprop:Generator_RowChangingName="vwReporteGeneral2RowChanging" msprop:Generator_RowEvHandlerName="vwReporteGeneral2RowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteGeneral2RowDeleted" msprop:Generator_RowClassName="vwReporteGeneral2Row" msprop:Generator_UserTableName="vwReporteGeneral2" msprop:Generator_RowEvArgName="vwReporteGeneral2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Empleado" msprop:Generator_ColumnVarNameInTable="columnEmpleado" msprop:Generator_ColumnPropNameInRow="Empleado" msprop:Generator_ColumnPropNameInTable="EmpleadoColumn" msprop:Generator_UserColumnName="Empleado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Subdirección" msprop:Generator_ColumnVarNameInTable="columnSubdirección" msprop:Generator_ColumnPropNameInRow="Subdirección" msprop:Generator_ColumnPropNameInTable="SubdirecciónColumn" msprop:Generator_UserColumnName="Subdirección" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteProv2" msprop:Generator_TableClassName="vwReporteProv2DataTable" msprop:Generator_TableVarName="tablevwReporteProv2" msprop:Generator_RowChangedName="vwReporteProv2RowChanged" msprop:Generator_TablePropName="vwReporteProv2" msprop:Generator_RowDeletingName="vwReporteProv2RowDeleting" msprop:Generator_RowChangingName="vwReporteProv2RowChanging" msprop:Generator_RowEvHandlerName="vwReporteProv2RowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteProv2RowDeleted" msprop:Generator_RowClassName="vwReporteProv2Row" msprop:Generator_UserTableName="vwReporteProv2" msprop:Generator_RowEvArgName="vwReporteProv2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Proveedor" msprop:Generator_ColumnVarNameInTable="columnProveedor" msprop:Generator_ColumnPropNameInRow="Proveedor" msprop:Generator_ColumnPropNameInTable="ProveedorColumn" msprop:Generator_UserColumnName="Proveedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteSubD2" msprop:Generator_TableClassName="vwReporteSubD2DataTable" msprop:Generator_TableVarName="tablevwReporteSubD2" msprop:Generator_RowChangedName="vwReporteSubD2RowChanged" msprop:Generator_TablePropName="vwReporteSubD2" msprop:Generator_RowDeletingName="vwReporteSubD2RowDeleting" msprop:Generator_RowChangingName="vwReporteSubD2RowChanging" msprop:Generator_RowEvHandlerName="vwReporteSubD2RowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteSubD2RowDeleted" msprop:Generator_RowClassName="vwReporteSubD2Row" msprop:Generator_UserTableName="vwReporteSubD2" msprop:Generator_RowEvArgName="vwReporteSubD2RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Subdirección" msprop:Generator_ColumnVarNameInTable="columnSubdirección" msprop:Generator_ColumnPropNameInRow="Subdirección" msprop:Generator_ColumnPropNameInTable="SubdirecciónColumn" msprop:Generator_UserColumnName="Subdirección" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vwReporteEmp" />
+      <xs:field xpath="mstns:Folio" />
+    </xs:unique>
+    <xs:unique name="vwReporteSubD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vwReporteSubD" />
+      <xs:field xpath="mstns:Folio" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
